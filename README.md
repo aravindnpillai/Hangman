@@ -57,7 +57,7 @@ while turns > 0:
     if guess == guesses:                           # if the correct letter guessed twice,lives (turns) wont decreases 
         print'_'
 
-    if guess not in word:                          # guessed letter not found in the randomly picked word,  turns                                                          decreases
+    if guess not in word:                          # guessed letter not found in the randomly picked word, turns                                                           decreases
 
         turns -= 1
     
@@ -77,6 +77,14 @@ while turns > 0:
     if turns == 0:
       print 'The answer is '+ word                # this will print the randomly selected word
       
+
+
+               
+    
+          
+    
+ 
+        
 
 
                
